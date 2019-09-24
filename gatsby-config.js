@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Nathaniel Bassey | Born To Worship`,
+    description: `Nathaniel Bassey is a Nigerian gospel artiste, born in Lagos in 1978. He is popularly known for his song "Imela” “Onise Iyanu" and "Olowogbogboro".`,
+    author: `@kay_kenshin`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
