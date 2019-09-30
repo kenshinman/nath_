@@ -2,7 +2,7 @@ import React from "react"
 import SocialIcons from "./SocialIcons"
 import InstagramFeeds from "./social/InstagramFeeds"
 
-const Footer = ({ data }) => {
+const Footer = () => {
   return (
     <footer id="footer">
       <div
@@ -64,7 +64,7 @@ const Footer = ({ data }) => {
           </div>
           <div className="col">
             <div className="footer_logo">
-              <img src="resources/images/nath_logo_dark.png" alt="Logo" />
+              <img src="/resources/images/nath_logo_dark.png" alt="Logo" />
             </div>
             <div className="info">
               <p className="main_p">Lagos, Nigeria</p>

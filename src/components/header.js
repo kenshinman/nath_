@@ -26,18 +26,18 @@ const Header = ({ siteTitle }) => (
       <div className="section">
         {/* LOGO */}
         <div className="logo">
-          <a href="01-Home.html">
+          <Link to="/">
             <img
               className="white-logo"
-              src="resources/images/nath_logo_light.png"
+              src="/resources/images/nath_logo_light.png"
               alt="Logo"
             />
             <img
               className="phink-logo"
-              src="resources/images/nath_logo_dark.png"
+              src="/resources/images/nath_logo_dark.png"
               alt="Logo"
             />
-          </a>
+          </Link>
         </div>
         <div className="nav-menu nav-demo-2">
           {/* START NAV BAR*/}
@@ -54,7 +54,7 @@ const Header = ({ siteTitle }) => (
           <a href="#">Get it now</a>
         </div>
         {/* <h1>beatswave</h1> */}
-        {/* <img src="resources/images/logo-big-white.png" alt="Logo 1" /> */}
+        {/* <img src="/resources/images/logo-big-white.png" alt="Logo 1" /> */}
       </div>
     </div>
   </section>

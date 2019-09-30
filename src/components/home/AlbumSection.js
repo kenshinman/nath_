@@ -1,19 +1,19 @@
 import React, { useState } from "react"
 import AudioPlayerItem from "../audio/AudioPlayerItem"
 
-const AlbumSection = () => {
+const AlbumSection = ({ album }) => {
   const tracks = [
     {
       title: "God is Good",
-      uri: "resources/sounds/Bruno_Mars-That_s_What_I_Like.mp3",
+      uri: "/resources/sounds/Bruno_Mars-That_s_What_I_Like.mp3",
     },
     {
       title: "This God is too Good",
-      uri: "resources/sounds/Bruno_Mars-That_s_What_I_Like.mp3",
+      uri: "/resources/sounds/Bruno_Mars-That_s_What_I_Like.mp3",
     },
     {
       title: "My God is always Good",
-      uri: "resources/sounds/Bruno_Mars-That_s_What_I_Like.mp3",
+      uri: "/resources/sounds/Bruno_Mars-That_s_What_I_Like.mp3",
     },
   ]
 
@@ -23,35 +23,45 @@ const AlbumSection = () => {
       <div className="section">
         {/* ALBUM RELEASE TITLE */}
         <div className="title">
-          <div className>
+          <div className="">
             <h1>New Albume Release</h1>
             <p>Lorem ipsum dolor</p>
           </div>
         </div>
         {/* ALBUM RELEASE MUSIC */}
-        <div className="row j_c">
-          <div className="col-md-6 cd_block wow fadeInLeftBig">
-            <div className="disc_cover">
+        <div class="row j_c">
+          <div class="col cd_block wow fadeInLeftBig">
+            <div class="disc_cover">
               <img
-                className="disc shadow"
-                src="resources/images/jesus-resurrection-and-life.jpg"
+                class="disc"
+                src="/resources/images/jesus-resurrection-and-life.jpg"
               />
               <img
-                className="cd"
-                src="resources/images/jesus-resurrection-and-life-round.png"
+                class="cd"
+                src="/resources/images/jesus-resurrection-and-life-round.png"
               />
             </div>
           </div>
-          <div className="col-md-6 music wow fadeInRightBig">
-            <ul>
-              {tracks.map((track, i) => {
-                return <AudioPlayerItem track={track} key={i} index={i} />
-              })}
-            </ul>
-            <div className="cta">
-              <a href="#">
-                buy album
-                <i className="fa fa-apple" aria-hidden="true" />
+          <div class="col music wow fadeInRightBig">
+            {album.tracks.splice(0, 3).map((track, i) => {
+              return (
+                <div key={i} class={`mp3 mp3_${i + 1}`}>
+                  <span>
+                    {i + 1}. {track.title}
+                  </span>
+                  <audio controls class="audio1">
+                    <source src={track.uri} type="audio/mpeg" />
+                  </audio>
+                </div>
+              )
+            })}
+
+            <div class="cta">
+              <a
+                target="_blank"
+                href="https://music.apple.com/us/album/jesus-the-resurrection-the-life/1445489440"
+              >
+                buy album<i class="fa fa-apple" aria-hidden="true"></i>
               </a>
             </div>
           </div>

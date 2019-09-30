@@ -6,12 +6,12 @@ import AlbumSection from "../components/home/ALbumSection"
 import EventsSection from "../components/home/EventsSection"
 
 const IndexPage = ({ data }) => {
-  console.log(data)
+  console.log({ data })
   return (
     <Layout title="Home" type="home">
       <BodyClassName className="home home-demo-2 demo-2-bg">
         <>
-          <AlbumSection />
+          <AlbumSection album={data.allDataJson.edges[0].node.albums[0]} />
           <EventsSection />
         </>
       </BodyClassName>
@@ -21,36 +21,16 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
   {
-    allInstaNode {
+    allDataJson {
       edges {
         node {
-          id
-          likes
-          comments
-          mediaType
-          preview
-          original
-          timestamp
-          caption
-          localFile {
-            childImageSharp {
-              fixed(width: 150, height: 150) {
-                base64
-                width
-                height
-                src
-                srcSet
-              }
+          albums {
+            id
+            title
+            tracks {
+              title
+              uri
             }
-          }
-          thumbnails {
-            src
-            config_width
-            config_height
-          }
-          dimensions {
-            height
-            width
           }
         }
       }

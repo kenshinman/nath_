@@ -1,0 +1,32 @@
+{
+  "events": [{
+      "title": "Worship Concert",
+      "date": "09/30/2019",
+      "location": {
+        "address": "RCCG, The King's Court",
+        "city": "Victoria Island",
+        "state": "Lagos",
+        "country": "Nigeria"
+      }
+    }, {
+      "title": "The Experience",
+      "date": "10/03/2019",
+      "location": {
+        "address": "Tafawa Balewa Square, Onikan",
+        "city": "Victoria Island",
+        "state": "Lagos",
+        "country": "Nigeria"
+      }
+    },
+    {
+      "title": "Night of Worship",
+      "date": "10/16/2019",
+      "location": {
+        "address": "Jesus House, ",
+        "city": "Victoria Island",
+        "state": "Abuja",
+        "country": "Nigeria"
+      }
+    }
+  ]
+}

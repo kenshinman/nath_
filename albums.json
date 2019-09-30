@@ -1,0 +1,129 @@
+{
+  "albums": [{
+    "id": 1,
+    "title": "Jesus: The Reurrection and The Life",
+    "releaseDate": "12/02/2018",
+    "tracks": [{
+        "title": "Intro (Doxology: Praise God from Whom All Blessings Flow)",
+        "uri": "01.mp3"
+      },
+      {
+        "title": "Great Jehovah, Great I Am",
+        "uri": "albums/this-god-is-too-good-o/01.mp3"
+      },
+      {
+        "title": "Strong Tower (feat. Glenn Gwazai)",
+        "uri": "albums/this-god-is-too-good-o/01.mp3"
+      },
+      {
+        "title": "Resurrection & the Life (feat. Olumide Iyun)",
+        "uri": "albums/this-god-is-too-good-o/01.mp3"
+      },
+      {
+        "title": "Kore Enye Fonde (For He Is Good) [feat. Eno Michael]",
+        "uri": "albums/this-god-is-too-good-o/01.mp3"
+      },
+      {
+        "title": "How Sweet the Name of Jesus Sounds (feat. Kaydee Numbere)",
+        "uri": "albums/this-god-is-too-good-o/01.mp3"
+      },
+      {
+        "title": "Hallelujah-Amen",
+        "uri": "albums/this-god-is-too-good-o/01.mp3"
+      },
+      {
+        "title": "Amen Chant",
+        "uri": "albums/this-god-is-too-good-o/01.mp3"
+      },
+      {
+        "title": "Holy Is Your Name (feat. Kikelomo Mudiaga)",
+        "uri": "albums/this-god-is-too-good-o/01.mp3"
+      },
+      {
+        "title": "Awamaridi (feat. Tomi Favored & Tope Alabi)",
+        "uri": "albums/this-god-is-too-good-o/01.mp3"
+      },
+      {
+        "title": "This Is Who I Am",
+        "uri": "albums/this-god-is-too-good-o/01.mp3"
+      },
+      {
+        "title": "By the Spirit (feat. Elijah Oyelade)",
+        "uri": "albums/this-god-is-too-good-o/01.mp3"
+      },
+      {
+        "title": "Let My Life (feat. Chris Delvan)",
+        "uri": "albums/this-god-is-too-good-o/01.mp3"
+      },
+      {
+        "title": "When I Met Jesus (The Call)",
+        "uri": "albums/this-god-is-too-good-o/01.mp3"
+      },
+      {
+        "title": "When I Met Jesus (Trumpet Version)",
+        "uri": "albums/this-god-is-too-good-o/01.mp3"
+      }
+    ]
+  }, {
+    "id": 2,
+    "title": "This God Is Too Good",
+    "releaseDate": "10/03/2016",
+    "tracks": [{
+        "title": "I've Come to Worship",
+        "uri": "albums/this-god-is-too-good-o/01.mp3"
+      },
+      {
+        "title": "The Champion (feat. Joe Mettle)",
+        "uri": "albums/this-god-is-too-good-o/02.mp3"
+      },
+      {
+        "title": "This God Is Too Good (feat. Micah Stampley)",
+        "uri": "albums/this-god-is-too-good-o/03.mp3"
+      },
+      {
+        "title": "Glorious God(feat.Jumoke Oshoboke)",
+        "uri": "albums/this-god-is-too-good-o/04.mp3"
+      },
+      {
+        "title": "Eze",
+        "uri": "albums/this-god-is-too-good-o/05.mp3"
+      },
+      {
+        "title": "ou Are God (feat. Chigozie Achugo)",
+        "uri": "albums/this-god-is-too-good-o/06.mp3"
+      },
+      {
+        "title": "Onise Iyanu (feat. Micah Stampley)",
+        "uri": "albums/this-god-is-too-good-o/07.mp3"
+      },
+      {
+        "title": "Like a Symphony (feat. Unwana Bassey & Jumoke Oshoboke)",
+        "uri": "albums/this-god-is-too-good-o/08.mp3"
+      },
+      {
+        "title": "I Love You",
+        "uri": "albums/this-god-is-too-good-o/09.mp3"
+      },
+      {
+        "title": "Celebrate Jesus (feat. Onos Ariyo)",
+        "uri": "albums/this-god-is-too-good-o/10.mp3"
+      },
+      {
+        "title": "Great and Marvelous (feat. Onos Ariyo)",
+        "uri": "albums/this-god-is-too-good-o/11.mp3"
+      },
+      {
+        "title": "Oh Jehovah",
+        "uri": "albums/this-god-is-too-good-o/12.mp3"
+      },
+      {
+        "title": "The Blood",
+        "uri": "albums/this-god-is-too-good-o/13.mp3"
+      },
+      {
+        "title": "Wonderful Wonder (feat. Lovesong)",
+        "uri": "albums/this-god-is-too-good-o/14.mp3"
+      }
+    ]
+  }]
+}

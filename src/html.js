@@ -14,19 +14,22 @@ export default function HTML(props) {
         <link
           rel="shortcut icon"
           type="image/icon"
-          href="resources/images/favicon.png"
+          href="/resources/images/favicon.png"
         />
-        <link href="resources/css/font-awesome.css" rel="stylesheet" />
-        <link href="resources/css/bootstrap.css" rel="stylesheet" />
+        <link href="/resources/css/font-awesome.css" rel="stylesheet" />
+        <link href="/resources/css/bootstrap.css" rel="stylesheet" />
         <link
           rel="stylesheet"
           type="text/css"
-          href="resources/css/animate.css"
+          href="/resources/css/animate.css"
         />
-        <link href="resources/css/player.css" rel="stylesheet" />
-        <link href="resources/css/bootstrap-formhelpers.css" rel="stylesheet" />
-        <link rel="stylesheet" href="resources/css/chosen.css" />
-        <link href="resources/css/style.css" rel="stylesheet" />
+        <link href="/resources/css/player.css" rel="stylesheet" />
+        <link
+          href="/resources/css/bootstrap-formhelpers.css"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/resources/css/chosen.css" />
+        <link href="/resources/css/style.css" rel="stylesheet" />
         <link
           href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700"
           rel="stylesheet"
@@ -39,8 +42,8 @@ export default function HTML(props) {
           href="https://fonts.googleapis.com/css?family=Special+Elite"
           rel="stylesheet"
         />
-        <script src="resources/js/jquery-3.3.1.slim.min.js">{}</script>
         {props.headComponents}
+        <script src="/resources/js/jquery-3.3.1.slim.min.js">{}</script>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
@@ -54,21 +57,21 @@ export default function HTML(props) {
         />
         {props.postBodyComponents}
 
-        <script src="resources/js/popper.min.js">{}</script>
-        <script src="resources/js/bootstrap.js">{}</script>
-        <script src="resources/js/chosen.jquery.js">{}</script>
-        <script src="resources/js/wow.js">{}</script>
-        <script src="resources/js/html5media.min.js">{}</script>
-        <script src="resources/js/player.js">{}</script>
-        <script src="resources/js/youtube-embed.js">{}</script>
-        <script src="resources/js/modernizr.custom.js">{}</script>
-        <script src="resources/js/jquery.flexslider.min.js">{}</script>
-        <script src="resources/js/imagesloaded.pkgd.min.js">{}</script>
-        <script src="resources/js/masonry.pkgd.min.js">{}</script>
-        <script src="resources/js/cbpGridGallery.js">{}</script>
-        <script src="resources/js/bootstrap-formhelpers.js">{}</script>
-        <script src="resources/js/magnify.js">{}</script>
-        <script src="resources/js/custom.js">{}</script>
+        {/* <script src="/resources/js/popper.min.js">{}</script>
+        <script src="/resources/js/bootstrap.js">{}</script>
+        <script src="/resources/js/chosen.jquery.js">{}</script>
+        <script src="/resources/js/wow.js">{}</script>
+        <script src="/resources/js/html5media.min.js">{}</script>
+        <script src="/resources/js/player.js">{}</script>
+        <script src="/resources/js/youtube-embed.js">{}</script>
+        <script src="/resources/js/modernizr.custom.js">{}</script>
+        <script src="/resources/js/jquery.flexslider.min.js">{}</script>
+        <script src="/resources/js/imagesloaded.pkgd.min.js">{}</script>
+        <script src="/resources/js/masonry.pkgd.min.js">{}</script>
+        <script src="/resources/js/cbpGridGallery.js">{}</script>
+        <script src="/resources/js/bootstrap-formhelpers.js">{}</script>
+        <script src="/resources/js/magnify.js">{}</script>
+        <script src="/resources/js/custom.js">{}</script> */}
       </body>
     </html>
   )

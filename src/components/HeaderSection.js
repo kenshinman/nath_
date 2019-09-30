@@ -21,7 +21,7 @@ const HeaderSection = () => {
               <a href="#">Get it now</a>
             </div>
             {/* <h1>beatswave</h1> */}
-            <img src="resources/images/logo-big-white.png" alt="Logo 1" />
+            <img src="/resources/images/logo-big-white.png" alt="Logo 1" />
           </div>
         </div>
         {/* START NAV BAR*/}
@@ -234,12 +234,12 @@ const HeaderSection = () => {
             <a href="01-Home.html">
               <img
                 className="white-logo"
-                src="resources/images/logo.png"
+                src="/resources/images/logo.png"
                 alt="Logo"
               />
               <img
                 className="phink-logo"
-                src="resources/images/logo-black.png"
+                src="/resources/images/logo-black.png"
                 alt="Logo"
               />
             </a>
@@ -402,7 +402,7 @@ const HeaderSection = () => {
           </div>
           <div className="header_items">
             <div className="search_icon">
-              {/*<i class="fa fa-search" aria-hidden="true"></i>*/}
+              {/*<i className="fa fa-search" aria-hidden="true"></i>*/}
               <svg
                 className="open-search"
                 viewBox="0 0 56.966 56.966"
@@ -464,7 +464,7 @@ const HeaderSection = () => {
             <a href="#">Get it now</a>
           </div>
           {/* <h1>beatswave</h1> */}
-          <img src="resources/images/logo-big-white.png" alt="Logo 1" />
+          <img src="/resources/images/logo-big-white.png" alt="Logo 1" />
         </div>
       </div>
     </section>

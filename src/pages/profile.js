@@ -11,7 +11,7 @@ const profile = () => {
           <div className="col-sm-6 col-md-4">
             <img
               className="img-fluid img-thumbnail shadow"
-              src="resources/images/nath_profile.jpg"
+              src="/resources/images/nath_profile.jpg"
               alt=""
             />
           </div>

@@ -14,6 +14,16 @@ const NavBar = () => {
           Profile
         </Link>
       </li>
+      <li className="nav-item">
+        <Link activeClassName="active" className="nav-link" to="/events">
+          Events
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link activeClassName="active" className="nav-link" to="/booking">
+          Booking
+        </Link>
+      </li>
 
       {/* <li className="nav-item">
         <a className="nav-link" href="javascript:void(0);">
