@@ -21,6 +21,8 @@ const Header = ({ siteTitle }) => (
       style={{
         backgroundImage: "url(resources/images/nathaniel-bassey-photo.jpg)",
         height: "100vh",
+        backgroundSize: "cover",
+        backgroundPosition: "initial",
       }}
     />
     <div className="header-continer">
@@ -42,7 +44,7 @@ const Header = ({ siteTitle }) => (
         </div>
         <div className="nav-menu nav-demo-2">
           {/* START NAV BAR*/}
-          <NavBarB />
+          <NavBar />
           {/* END NAV BAR*/}
         </div>
         <div className="header_items">

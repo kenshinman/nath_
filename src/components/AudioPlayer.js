@@ -175,7 +175,7 @@ const AudioPlayer = ({ album }) => {
         Learn More on Server Side Up
       </a> */}
       <div
-        class="cta mx-auto container justify-content-center align-items-center"
+        className="cta mx-auto container justify-content-center align-items-center"
         style={{ display: "flex" }}
       >
         {Object.keys(album.buy).map(store => {
@@ -187,7 +187,7 @@ const AudioPlayer = ({ album }) => {
               href={album.buy[store]}
             >
               buy on {store}
-              <i class="fa fa-apple" aria-hidden="true"></i>
+              <i className="fa fa-apple" aria-hidden="true"></i>
             </a>
           )
         })}

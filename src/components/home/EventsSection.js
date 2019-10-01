@@ -38,7 +38,7 @@ const EventsSection = () => {
       <div className="section">
         {/* TOUR TITLE */}
         <div className="title">
-          <div className>
+          <div>
             <h1>Events</h1>
             <p>Concerts, Tours, etc.</p>
           </div>
