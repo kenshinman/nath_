@@ -54,6 +54,7 @@ const Layout = ({ children, title, type, description }) => {
           href="https://fonts.googleapis.com/css?family=Special+Elite"
           rel="stylesheet"
         />
+        <link rel="stylesheet" href="/css/amplitude.css" />
 
         <script src="/resources/js/jquery-3.3.1.slim.min.js">{}</script>
         <script src="/resources/js/popper.min.js">{}</script>

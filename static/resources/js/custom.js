@@ -41,7 +41,8 @@ var popup_images_arr = []
 // Get track duration by source
 function getDuration(src) {
   return new Promise(function(resolve) {
-    var audio = new Audio()
+    var audio
+
     $(audio).on("loadedmetadata", function() {
       resolve(audio.duration)
     })

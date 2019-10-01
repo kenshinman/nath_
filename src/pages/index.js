@@ -11,7 +11,7 @@ const IndexPage = ({ data }) => {
     <Layout title="Home" type="home">
       <BodyClassName className="home home-demo-2 demo-2-bg">
         <>
-          <AlbumSection album={data.allDataJson.edges[0].node.albums[0]} />
+          <AlbumSection album={data.allDataJson.nodes[0].albums[0]} />
           <EventsSection />
         </>
       </BodyClassName>
@@ -22,15 +22,20 @@ const IndexPage = ({ data }) => {
 export const query = graphql`
   {
     allDataJson {
-      edges {
-        node {
-          albums {
-            id
+      nodes {
+        id
+
+        albums {
+          id
+          cover
+          artist
+          buy {
+            itunes
+            amazon
+          }
+          tracks {
             title
-            tracks {
-              title
-              uri
-            }
+            uri
           }
         }
       }
