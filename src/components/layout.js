@@ -81,6 +81,7 @@ const Layout = ({ children, title, type, description }) => {
       )}
       {children}
       <Footer />
+      <div className="grid" style={{ display: "none" }}></div>
     </>
   )
 }

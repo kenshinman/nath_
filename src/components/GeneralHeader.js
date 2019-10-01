@@ -1,9 +1,18 @@
-import React from "react"
+import React, { useEffect } from "react"
 import NavBar from "./NavBar"
 import { Link } from "gatsby"
 import NavBarB from "./NavBarB"
 
 const GeneralHeader = () => {
+  useEffect(() => {
+    const $ = window.jQuery
+    $(".menu_icon").on("click", function() {
+      $(this).toggleClass("active")
+      $(".search_icon").removeClass("active")
+      $("#header .nav-menu").toggleClass("active")
+      $("#header .search-bar").removeClass("active")
+    })
+  }, [])
   return (
     <section id="header">
       {/* START MENU SECTION */}
@@ -12,8 +21,7 @@ const GeneralHeader = () => {
         <div
           className="section_bg_image"
           style={{
-            backgroundImage:
-              "url(resources/images/biel-morro-128512-unsplash.png)",
+            backgroundImage: "url(/img/nathaniel_bassey_bg.jpg)",
           }}
         />
         {/* START NAV BAR*/}

@@ -123,7 +123,6 @@ const AudioPlayer = ({ album }) => {
         <div id="amplitude-right">
           {/* songs item */}
           {songs.map((song, i) => {
-            console.log(song)
             return (
               <div
                 className="song amplitude-song-container amplitude-play-pause"

@@ -185,12 +185,12 @@ jQuery(function($) {
   /* ----------------------------------------------------------- */
   /*  1. OPEN AND CLOSE MENU
     /* ----------------------------------------------------------- */
-  $(".menu_icon").on("click", function() {
-    $(this).toggleClass("active")
-    $(".search_icon").removeClass("active")
-    $("#header .nav-menu").toggleClass("active")
-    $("#header .search-bar").removeClass("active")
-  })
+  // $(".menu_icon").on("click", function() {
+  //   $(this).toggleClass("active")
+  //   $(".search_icon").removeClass("active")
+  //   $("#header .nav-menu").toggleClass("active")
+  //   $("#header .search-bar").removeClass("active")
+  // })
 
   /* ----------------------------------------------------------- */
   /*  2. OPEN AND CLOSE SEARCH BAR

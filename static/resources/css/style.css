@@ -85,18 +85,18 @@ a:hover {
   z-index: 8;
   width: 100%;
   height: 100%;
-  /* background-image: -webkit-gradient(
+  background-image: -webkit-gradient(
     linear,
     left top,
     left bottom,
     from(#a938b7),
     to(#28e3e6)
-  ); */
-  /* background-image: -webkit-linear-gradient(#a938b7, #28e3e6);
+  );
+  background-image: -webkit-linear-gradient(#a938b7, #28e3e6);
   background-image: -moz-linear-gradient(#a938b7, #28e3e6);
   background-image: -o-linear-gradient(#a938b7, #28e3e6);
-  background-image: linear-gradient(#a938b7, #28e3e6); */
-  background-color: black;
+  background-image: linear-gradient(#a938b7, #28e3e6);
+  /* background-color: black; */
   opacity: 0.7;
 }
 .section {

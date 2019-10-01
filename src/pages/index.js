@@ -6,7 +6,6 @@ import AlbumSection from "../components/home/ALbumSection"
 import EventsSection from "../components/home/EventsSection"
 
 const IndexPage = ({ data }) => {
-  console.log({ data })
   return (
     <Layout title="Home" type="home">
       <BodyClassName className="home home-demo-2 demo-2-bg">
