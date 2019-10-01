@@ -1,8 +1,14 @@
 {
   "albums": [{
       "id": 1,
+      "artist": "Nathaniel Bassey",
       "title": "Jesus: The Reurrection and The Life",
       "releaseDate": "12/02/2018",
+      "buy": {
+        "itunes": "https://music.apple.com/us/album/jesus-the-resurrection-the-life/1445489440",
+        "amazon": "https://www.amazon.com/Jesus-Resurrection-Life-Nathaniel-Bassey/dp/B07X5FPNZG/"
+      },
+      "cover": "/resources/images/jesus-resurrection-and-life.jpg",
       "tracks": [{
           "title": "Intro (Doxology: Praise God from Whom All Blessings Flow)",
           "uri": "albums/jesus-the-resurrection-and-the-life/01.mp3"
@@ -67,8 +73,14 @@
     },
     {
       "id": 2,
+      "artist": "Nathaniel Bassey",
       "title": "This God Is Too Good",
       "releaseDate": "10/03/2016",
+      "buy": {
+        "itunes": "https://music.apple.com/us/album/jesus-the-resurrection-the-life/1445489440",
+        "amazon": "https://www.amazon.com/Jesus-Resurrection-Life-Nathaniel-Bassey/dp/B07X5FPNZG/"
+      },
+      "cover": "/resources/images/jesus-resurrection-and-life.jpg",
       "tracks": [{
           "title": "I've Come to Worship",
           "uri": "albums/this-god-is-too-good-o/01.mp3"

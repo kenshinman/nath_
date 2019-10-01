@@ -41,7 +41,8 @@ var popup_images_arr = []
 // Get track duration by source
 function getDuration(src) {
   return new Promise(function(resolve) {
-    var audio = new Audio()
+    var audio
+
     $(audio).on("loadedmetadata", function() {
       resolve(audio.duration)
     })
@@ -184,12 +185,12 @@ jQuery(function($) {
   /* ----------------------------------------------------------- */
   /*  1. OPEN AND CLOSE MENU
     /* ----------------------------------------------------------- */
-  $(".menu_icon").on("click", function() {
-    $(this).toggleClass("active")
-    $(".search_icon").removeClass("active")
-    $("#header .nav-menu").toggleClass("active")
-    $("#header .search-bar").removeClass("active")
-  })
+  // $(".menu_icon").on("click", function() {
+  //   $(this).toggleClass("active")
+  //   $(".search_icon").removeClass("active")
+  //   $("#header .nav-menu").toggleClass("active")
+  //   $("#header .search-bar").removeClass("active")
+  // })
 
   /* ----------------------------------------------------------- */
   /*  2. OPEN AND CLOSE SEARCH BAR
