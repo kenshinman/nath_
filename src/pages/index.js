@@ -23,7 +23,6 @@ export const query = graphql`
     allDataJson {
       nodes {
         id
-
         albums {
           id
           cover

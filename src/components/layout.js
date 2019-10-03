@@ -72,6 +72,13 @@ const Layout = ({ children, title, type, description }) => {
         <script src="/resources/js/bootstrap-formhelpers.js">{}</script>
         <script src="/resources/js/magnify.js">{}</script>
         <script src="/resources/js/custom.js">{}</script>
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charset="utf-8"
+        >
+          {}
+        </script>
       </Helmet>
       <SEO title={title} description={description} />
       {type === "home" ? (

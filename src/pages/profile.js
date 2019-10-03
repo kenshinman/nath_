@@ -10,10 +10,27 @@ const profile = () => {
         <div className="row">
           <div className="col-sm-6 col-md-4">
             <img
-              className="img-fluid img-thumbnail shadow"
+              className="img-fluid img-thumbnail shadow mb-3"
               src="/resources/images/nath_profile.jpg"
               alt=""
             />
+            <a
+              href="https://twitter.com/nathanielblow?ref_src=twsrc%5Etfw"
+              class="twitter-follow-button"
+              data-lang="en"
+              data-show-count="true"
+            >
+              Follow @nathanielblow
+            </a>
+            <br />
+            <a
+              href="https://twitter.com/intent/tweet?screen_name=nathanielblow&ref_src=twsrc%5Etfw"
+              class="twitter-mention-button"
+              data-lang="en"
+              data-show-count="false"
+            >
+              Tweet to @nathanielblow
+            </a>
           </div>
           <div className="col-sm-6 col-md-8 mb-3">
             <p>

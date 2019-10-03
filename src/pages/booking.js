@@ -7,7 +7,7 @@ import BookingForm from "../components/BookingForm"
 const contact = () => {
   return (
     <BodyClassName className="contact-us-page home-demo-2">
-      <Layout>
+      <Layout title="Booking">
         <TopTitle title="Booking" />
         <section
           id="contact-us"

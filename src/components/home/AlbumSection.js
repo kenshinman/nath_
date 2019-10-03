@@ -2,21 +2,6 @@ import React, { useState } from "react"
 import AudioPlayer from "../AudioPlayer"
 
 const AlbumSection = ({ album }) => {
-  const tracks = [
-    {
-      title: "God is Good",
-      uri: "/resources/sounds/Bruno_Mars-That_s_What_I_Like.mp3",
-    },
-    {
-      title: "This God is too Good",
-      uri: "/resources/sounds/Bruno_Mars-That_s_What_I_Like.mp3",
-    },
-    {
-      title: "My God is always Good",
-      uri: "/resources/sounds/Bruno_Mars-That_s_What_I_Like.mp3",
-    },
-  ]
-
   return (
     <section id="album-release" className="section_2">
       {/* START ALBUM RELEASE SECTION */}

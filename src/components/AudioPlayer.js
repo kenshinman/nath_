@@ -48,7 +48,11 @@ const AudioPlayer = ({ album }) => {
     })
   }, [])
   return (
-    <div id="blue-playlist-container" style={{ width: "100%" }}>
+    <div
+      id="blue-playlist-container"
+      className="mb-3"
+      style={{ width: "100%" }}
+    >
       {/* Amplitude Player */}
       <div id="amplitude-player">
         {/* Left Side Player */}
@@ -127,7 +131,7 @@ const AudioPlayer = ({ album }) => {
               <div
                 className="song amplitude-song-container amplitude-play-pause"
                 data-amplitude-song-index={i}
-                key={i}
+                key={`${song.name}_${i}`}
               >
                 <div className="song-now-playing-icon-container">
                   <div className="play-button-container"></div>
@@ -137,11 +141,13 @@ const AudioPlayer = ({ album }) => {
                   />
                 </div>
                 <div className="song-meta-data">
-                  <span className="song-title">{song.name}</span>
+                  <span className="song-title">
+                    {i + 1}. {song.name}
+                  </span>
                   <span className="song-artist">{song.artist}</span>
                 </div>
 
-                <span className="song-duration">3:30</span>
+                <span className="song-duration"> </span>
               </div>
             )
           })}

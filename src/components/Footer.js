@@ -19,8 +19,17 @@ const Footer = () => {
           </div>
           <div className="col">
             <div className="f-content">
-              <h2>UPCOMING EVENT</h2>
-              <div className="day_num">
+              <h2>TWEETS</h2>
+              <a
+                className="twitter-timeline"
+                data-lang="en"
+                data-height="350"
+                data-link-color="#981CEB"
+                href="https://twitter.com/nathanielblow?ref_src=twsrc%5Etfw"
+              >
+                Tweets by nathanielblow
+              </a>
+              {/* <div className="day_num">
                 <a href="05-Events-Single-Events.html">
                   <span>19</span>
                   <div>
@@ -59,7 +68,7 @@ const Footer = () => {
                   </div>
                   <p>Coachella Festival</p>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col">
