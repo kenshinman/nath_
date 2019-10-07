@@ -191,7 +191,7 @@ const AudioPlayer = ({ album }) => {
               className="ml-2"
               href={album.buy[store]}
             >
-              buy on {store}
+              buy on {store} {"  "}
               <i className="fa fa-apple" aria-hidden="true"></i>
             </a>
           )

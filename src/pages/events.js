@@ -6,27 +6,7 @@ import BodyClassName from "react-body-classname"
 import EventListItem from "../components/EventListItem"
 
 const EventsPage = () => {
-  const data = useStaticQuery(graphql`
-    {
-      allDataJson {
-        nodes {
-          id
-          events {
-            title
-            date
-            location {
-              address
-              city
-              state
-              country
-            }
-          }
-        }
-      }
-    }
-  `)
-
-  const events = data.allDataJson.nodes[0].events
+  const events = []
 
   return (
     <BodyClassName className="all-events home-demo-2">

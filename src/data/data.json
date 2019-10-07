@@ -80,7 +80,7 @@
       "releaseDate": "10/03/2016",
       "buy": {
         "itunes": "https://music.apple.com/us/album/jesus-the-resurrection-the-life/1445489440",
-        "amazon": "https://www.amazon.com/Jesus-Resurrection-Life-Nathaniel-Bassey/dp/B07X5FPNZG/"
+        "amazon": "https://www.amazon.com/dp/B01LZ1UQOD/"
       },
       "cover": "/resources/images/this-god-is-too-good.jpg",
       "tracks": [{
@@ -140,37 +140,130 @@
           "uri": "/albums/this-god-is-too-good-o/14.mp3"
         }
       ]
-    }
-  ],
-  "events": [{
-      "title": "Worship Concert",
-      "date": "03 Oct 2019",
-      "location": {
-        "address": "RCCG, The King's Court",
-        "city": "Victoria Island",
-        "state": "Lagos",
-        "country": "Nigeria"
-      }
-    }, {
-      "title": "The Experience",
-      "date": "07 Oct 2019",
-      "location": {
-        "address": "Tafawa Balewa Square, Onikan",
-        "city": "Victoria Island",
-        "state": "Lagos",
-        "country": "Nigeria"
-      }
     },
     {
-      "title": "Night of Worship",
-      "date": "12 Dec 2019",
-      "location": {
-        "address": "Jesus House, ",
-        "city": "Victoria Island",
-        "state": "Abuja",
-        "country": "Nigeria"
-      }
+      "id": 3,
+      "artist": "Nathaniel Bassey",
+      "title": "Revival Flames",
+      "slug": "revival-flames",
+      "releaseDate": "05/08/2017",
+      "buy": {
+        "itunes": "https://music.apple.com/us/album/jesus-the-resurrection-the-life/1445489440",
+        "amazon": "https://www.amazon.com/dp/B0716Q1WSW"
+      },
+      "cover": "/resources/images/revival-flames.jpg",
+      "tracks": [{
+          "title": "Take the Stage",
+          "uri": "/albums/revival-flames/01.mp3"
+        },
+        {
+          "title": "Alagbada Ina (feat. Victoria Orenze)",
+          "uri": "/albums/revival-flames/02.mp3"
+        },
+        {
+          "title": "We Need You Now (feat. Cynthia Maccauley & Pa. Emiko Amotsuka)",
+          "uri": "/albums/revival-flames/03.mp3"
+        },
+        {
+          "title": "Never the Same",
+          "uri": "/albums/revival-flames/04.mp3"
+        },
+        {
+          "title": "Abba Father",
+          "uri": "/albums/revival-flames/05.mp3"
+        },
+        {
+          "title": "Jesus Jesus",
+          "uri": "/albums/revival-flames/06.mp3"
+        },
+        {
+          "title": "The Living God (feat. Cynthia Maccauley)",
+          "uri": "/albums/revival-flames/07.mp3"
+        },
+        {
+          "title": "Elshaddai (feat. Olumide Iyun)",
+          "uri": "/albums/revival-flames/08.mp3"
+        },
+        {
+          "title": "Incredible Love (feat. Chris Morgan & Simpa Adaba)",
+          "uri": "/albums/revival-flames/09.mp3"
+        },
+        {
+          "title": "Hallelujah Eh",
+          "uri": "/albums/revival-flames/10.mp3"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "artist": "Nathaniel Bassey",
+      "title": "The Son of God",
+      "slug": "the-son-of-god",
+      "releaseDate": "05/08/2017",
+      "buy": {
+        "itunes": "https://music.apple.com/us/album/the-son-of-god-imela/948160100",
+        "amazon": "https://www.amazon.com/Son-God-Imela-Nathaniel-Bassey/dp/B00QU9I9M6"
+      },
+      "cover": "/resources/images/the-son-of-god.jpg",
+      "tracks": [{
+          "title": "We Bless Your Name",
+          "uri": "/albums/the-son-of-god/01.mp3"
+        },
+        {
+          "title": "The Son of God",
+          "uri": "/albums/the-son-of-god/02.mp3"
+        },
+        {
+          "title": "I Know You Are Here",
+          "uri": "/albums/the-son-of-god/03.mp3"
+        },
+        {
+          "title": "You Deserve the Glory / No One",
+          "uri": "/albums/the-son-of-god/04.mp3"
+        },
+        {
+          "title": "Casting Crowns",
+          "uri": "/albums/the-son-of-god/05.mp3"
+        },
+        {
+          "title": "I Believe in You (feat. Cindy Pasley)",
+          "uri": "/albums/the-son-of-god/06.mp3"
+        },
+        {
+          "title": "Waiting",
+          "uri": "/albums/the-son-of-god/07.mp3"
+        },
+        {
+          "title": "Jesus (feat. Mayra Alvarez)",
+          "uri": "/albums/the-son-of-god/08.mp3"
+        },
+        {
+          "title": "Imela (feat. Enitan Adaba)",
+          "uri": "/albums/the-son-of-god/09.mp3"
+        },
+        {
+          "title": "So Amazing",
+          "uri": "/albums/the-son-of-god/10.mp3"
+        },
+        {
+          "title": "God of Love (feat. Mayra Alvarez & Morayo)",
+          "uri": "/albums/the-son-of-god/11.mp3"
+        },
+        {
+          "title": "Come, Lord Come",
+          "uri": "/albums/the-son-of-god/12.mp3"
+        },
+        {
+          "title": "No Other God (feat. Lovesong)",
+          "uri": "/albums/the-son-of-god/13.mp3"
+        },
+        {
+          "title": "Take Your Glory",
+          "uri": "/albums/the-son-of-god/14.mp3"
+        }
+      ]
     }
-  ]
+  ],
+  "events": []
 
 }

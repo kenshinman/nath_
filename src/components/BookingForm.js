@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import axios from "axios"
+import Swal from "sweetalert2"
 
 const BookingForm = () => {
   //state
@@ -26,11 +27,20 @@ const BookingForm = () => {
   const sendMail = async e => {
     e.preventDefault()
     try {
-      const res = await axios.post("http://localhost:5000/contact", payload)
+      const res = await axios.post(
+        "https://nath-mailserver.herokuapp.com/contact",
+        payload
+      )
       const { success } = res.data
       if (success) {
         setSending(false)
         showToast(true)
+        Swal.fire({
+          title: "Success",
+          text: "Mail sent Successfully",
+          type: "success",
+          confirmButtonText: "Okay",
+        })
         setPayload({
           name: "",
           email: "",

@@ -20,7 +20,7 @@ const albums = props => {
                   </div>
                   <div className="music-banner-text">
                     <h2>{album.releaseDate.split("/")[2]}</h2>
-                    <p>Jazz Music</p>
+                    <p>Christian &amp; Gospel</p>
                   </div>
                   <a
                     href={`/album/${album.slug}`}

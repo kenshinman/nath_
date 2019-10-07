@@ -3,27 +3,7 @@ import { useStaticQuery, query } from "gatsby"
 import EventListItem from "../EventListItem"
 
 const EventsSection = () => {
-  const data = useStaticQuery(graphql`
-    {
-      allDataJson {
-        nodes {
-          id
-          events {
-            title
-            date
-            location {
-              address
-              city
-              state
-              country
-            }
-          }
-        }
-      }
-    }
-  `)
-
-  const events = data.allDataJson.nodes[0].events
+  const events = []
 
   return (
     <section id="on-tour" className="section_3">
